@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="assets/css/bootstrap4-daydream.css">
+    <link rel="stylesheet" href="assets/css/bootstrap4-daydream.min.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="icon" href="images/cv.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.js"></script>
+    <title>CV numérique Hassan Derkaoui</title>
+</head>
+<body ng-app="ongletsApp">
+    <div class="container-fluid">
+        <header>
+            <div class="row justify-content-center">
+                <div class="col-md-12 nav-group">
+                    <nav class="navbar navbar-expand-lg bg-nav">
+                        <h1><a class="navbar-brand" href="#!/propos">DERKAOUI HASSAN</a></h1>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">&#9776;</span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                            <ul class="navbar-nav nav">
+                                <li class="nav-item"><a class="nav-link"  href="#!/expériences">Expériences</a></li>
+                                <li class="nav-item"><a class="nav-link"  href="#!/diplomes">Diplômes</a></li>
+                                <li class="nav-item"><a class="nav-link"  href="#!/compétences">Compétences Numériques</a></li>
+                                <li class="nav-item"><a class="nav-link"  href="#!/projets">Projets</a></li>
+                                <li class="nav-item"><a class="nav-link"  href="#!/passion">Passions</a></li>
+                                <li class="nav-item"><a class="nav-link"  href="#!/contact">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="jumbotron text-center text-white mb-3 radius-0">
+                    <h1 class="display-3 text-dark text-handwriting text-uppercase">Derkaoui Hassan</h1>
+                    <h2 class="text-dark">Développeur web junior</h2>
+                    <h3 class="text-dark ">"La passion et les rêves sont comme le temps, rien ne peut les arrêter, et il en sera ainsi tant qu’il y aura des hommes prêts à donner un sens au mot « LIBERTÉ»"</h3>
+                    <h4 class="text-center text-dark">Gold D.Roger</h4>
+                </div>
+            </div>
+        </header>
+
+    </div>
+<!-- Merci de vous êtes déplacés dans les commentaires invisible -->
+    <div class="container-fluid">
+        <div ng-view></div>
+        <!-- le ng-view permet de montrer le contenu de chaque route -->
+    </div>
+    <footer class="text-center">
+        <p>© Copyright 2019 DERKAOUI HASSAN. Tous droits réservés.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
