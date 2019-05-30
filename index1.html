@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="assets/css/bootstrap4-daydream.css">
     <link rel="stylesheet" href="assets/css/bootstrap4-daydream.min.css">
     <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="icon" href="images/cv.png">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-route.js"></script>
     <title>CV numérique Hassan Derkaoui</title>
 </head>
 <body ng-app="ongletsApp">
-    <div class="container-fluid">
         <header>
+            <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-md-12 nav-group">
                     <nav class="navbar navbar-expand-lg bg-nav">
-                        <h1><a class="navbar-brand" href="#!/propos">DERKAOUI HASSAN</a></h1>
+                        <h1 class="cv"><a class="navbar-brand" href="#!/propos">DERKAOUI HASSAN</a></h1>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon">&#9776;</span>
                         </button>
@@ -37,11 +38,11 @@
                 </div>
             </div>
             <div class="container-fluid">
-                <div class="jumbotron text-center text-white mb-3 radius-0">
-                    <h1 class="display-3 text-dark text-handwriting text-uppercase">Derkaoui Hassan</h1>
-                    <h2 class="text-dark">Développeur web junior</h2>
-                    <h3 class="text-dark ">"La passion et les rêves sont comme le temps, rien ne peut les arrêter, et il en sera ainsi tant qu’il y aura des hommes prêts à donner un sens au mot « LIBERTÉ»"</h3>
-                    <h4 class="text-center text-dark">Gold D.Roger</h4>
+                <div class="text-center mb-3 radius-0">
+                    <h1 class="display-3 titre text-handwriting text-uppercase">Derkaoui Hassan</h1>
+                    <h2 class="titre">Développeur web junior et web mobile</h2>
+                    <h3 class="titre">"La passion et les rêves sont comme le temps, rien ne peut les arrêter, et il en sera ainsi tant qu’il y aura des hommes prêts à donner un sens au mot « LIBERTÉ»"</h3>
+                    <h4 class="titre">Gold D.Roger</h4>
                 </div>
             </div>
         </header>
@@ -52,9 +53,6 @@
         <div ng-view></div>
         <!-- le ng-view permet de montrer le contenu de chaque route -->
     </div>
-    <footer class="text-center">
-        <p>© Copyright 2019 DERKAOUI HASSAN. Tous droits réservés.</p>
-    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
