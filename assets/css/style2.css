@@ -34,13 +34,30 @@ header{
 }
 
 .card-img-top{
-    width: 450px;
+    width: 470px;
     height: 350px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+@media screen and (max-device-width: 360px) {
+
+.card-img-top{
+    height: 200px;
+    width: 294px;
+}
+
+}
+
+@media screen and (min-device-width: 361px max-device-width: 375px) {
+
+.card-img-top{
+    height: 200px;
+    width: 29px;
+}
+
+}
+.passions{
+    height: 1000px;
+    width: 800px;
 }
 
 body {
