@@ -33,6 +33,11 @@ header{
     transform: scale(1.3);
 }
 
+.card-img-top{
+    width: 450px;
+    height: 350px;
+}
+
 * {
   margin: 0;
   padding: 0;
