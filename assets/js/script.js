@@ -33,7 +33,7 @@ onglets.config(['$routeProvider', function($routeProvider, $routeParams) {
         templateUrl: 'partials/contact.html'
     })
     .otherwise({
-        retirectTo: '/propos'
+        redirectTo: '/propos'
     });
     }
 ]);
