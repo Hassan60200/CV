@@ -15,15 +15,31 @@
                 <label for="message" class="my-0">Votre message:</label>
                 <textarea id="message" name="message"  rows="8" class="form-control" required style="resize:none;" placeholder="Votre message"></textarea>
                 <!-- bouton de validation -->
-                <button type="button" name="submit" class="btn btn-primary mb-5">Envoyer</button>
+                <button type="button" name="submit" class="btn btn-outline-primary mt-3">Envoyer</button>
             </form>
         </div>
-        <div class="col-5">
-            <div class="text-center">Contactez-moi</div>
-            <p class="grow">&#x2706; 0618815620</p>
-            <a href="mailto:derkaouihassan19@gmail.com?subject=Cher%20monsieur%20Derkaoui"><img src="images/gmail1.png" alt="adresse mail pro" class="grow"></a>
-            <a href="https://github.com/Hassan60200" title="Mon lien github"><img src="images/icons-github.png" class="grow" alt="github">
+        <div class="col-6">
+            <div class="text-center border font-weight-bold display-4">Contactez-moi</div>
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">
+                N° téléphone</button>
+                <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold">Téléphone</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <p class="grow mt-4 ">&#x2706; 0618815620</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="mailto:derkaouihassan19@gmail.com?subject=Cher%20monsieur%20Derkaoui"><img src="images/gmail.png" alt="adresse mail pro" class="grow mail"></a>
+                <a href="https://github.com/Hassan60200" title="Mon lien github"><img src="images/icons-github.png" class="grow" alt="github">
                 <a href="https://www.linkedin.com/in/hassan-derkaoui-79013b14a/" title="Mon lien linkedin"><img src="images/icons-linkedin.png" class="grow" alt="linkedin">
+                    </div>
                 </div>
             </div>
-        </div>
