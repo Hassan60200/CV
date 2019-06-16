@@ -10,6 +10,11 @@ header{
 .navbar-brand{
     color: #F5A208;
 }
+
+.burger{
+color:  #ffffff ;
+}
+
 #experience{
     margin-top: 3%;
 }
