@@ -8,8 +8,13 @@ header{
     background-size: cover;
 }
 .navbar-brand{
-    color: #F5A208;
+    color: #FFFFFF;
 }
+.accueil:hover{
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
 
 .burger{
 color:  #ffffff ;
